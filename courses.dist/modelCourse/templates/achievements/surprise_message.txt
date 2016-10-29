@@ -1,3 +1,0 @@
-The message for the Mysterious Package (with Ribbons) item goes in the file templates/achievements/surprise_message.txt.  <br>
-
-If you are a student seeing this message you should let  your instructor know about it.
