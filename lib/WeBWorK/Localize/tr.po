@@ -1,0 +1,2522 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: WeBWorK Online Homework System\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 2011-12-29 12:35-0500\n"
+"Last-Translator: Michael Gage <gage@math.rochester.edu>\n"
+"Language-Team: Webwork Turkish language team <Ben Walter <benwalt@gmail.com>>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: \n"
+"X-Poedit-Language: Turkish\n"
+"X-Poedit-Country: TURKEY\n"
+
+#
+#. ($name, $vnum)
+#: ContentGenerator/ProblemSets.pm:416
+msgid "%1 (test %2)"
+msgstr "%1 (test %2)"
+
+#
+#. ($numAdded, $numSkipped, join(", ", @$skipped)
+#: ContentGenerator/Instructor/ProblemSetList.pm:1581
+msgid "%1 sets added, %2 sets skipped. Skipped sets: (%3)"
+msgstr "%1 set eklendi, %2 sets atlandı. Atlanan setler: (%3)"
+
+#
+#. ($numExported, $numSkipped, (($numSkipped)
+#: ContentGenerator/Instructor/ProblemSetList.pm:1701
+msgid "%1 sets exported, %2 sets skipped. Skipped sets: (%3)"
+msgstr "%1 set aktarıldı, %2 set atlandı. Atlanan setler: (%3)"
+
+#
+#. ($name)
+#: ContentGenerator/ProblemSets.pm:427
+#: ContentGenerator/ProblemSets.pm:441
+msgid "%1 test"
+msgstr " %1 test"
+
+#
+#. (scalar @userIDsToExport, $dir, $fileName)
+#: ContentGenerator/Instructor/UserList.pm:1385
+msgid "%1 users exported to file %2/%3"
+msgstr "%1 kullanıcı %2/%3 dosyasına aktarıldı."
+
+#
+#. ($numReplaced, $numAdded, $numSkipped, join (", ", @$skipped)
+#: ContentGenerator/Instructor/UserList.pm:1269
+msgid "%1 users replaced, %2 users added, %3 users skipped. Skipped users: (%4)"
+msgstr "%1 kullanıcı değiştirildi, %2 kullanıcı eklendi, %3 kullanıcı atlandı. Atlanan kullanıcılar: (%4)"
+
+#
+#. (int($answerScore*100)
+#: ContentGenerator/Problem.pm:265
+msgid "%1% correct"
+msgstr "%1% doğru"
+
+#
+#. ($e_user_name)
+#: ContentGenerator/Options.pm:171
+msgid "%1's Current Address"
+msgstr "%1 için Mevcut Adres"
+
+#
+#. ($user_name)
+#: ContentGenerator/Options.pm:126
+msgid "%1's Current Password"
+msgstr "%1 için Mevcut Şifre"
+
+#
+#. ($e_user_name)
+#: ContentGenerator/Options.pm:175
+msgid "%1's New Address"
+msgstr "%1 için Yeni Adres"
+
+#
+#. ($e_user_name)
+#: ContentGenerator/Options.pm:130
+msgid "%1's New Password"
+msgstr "%1 için Yeni Şifre"
+
+#
+#. ($e_user_name)
+#: ContentGenerator/Options.pm:101
+msgid "%1's new password cannot be blank."
+msgstr "%1 için yeni şifre boş bırakılamaz."
+
+#
+#. ($e_user_name)
+#: ContentGenerator/Options.pm:84
+msgid "%1's password has been changed."
+msgstr "%1 adlı kullanıcının şifresi değiştirildi."
+
+#
+#. ($setID, $problemID)
+#: ContentGenerator/Problem.pm:884
+msgid "%1: Problem %2"
+msgstr "%1: Soru %2."
+
+#
+#. ($numBlanks)
+#: ContentGenerator/Problem.pm:319
+msgid "%quant(%1,of the questions remains,of the questions remain) unanswered."
+msgstr "Soruların %1 tanesi yanıtsız bırakıldı."
+
+#
+#: ContentGenerator/Problem.pm:1188
+msgid "(This problem will not count towards your grade.)"
+msgstr "(Bu soru notunuzu etkilemeyecektir.)"
+
+#
+#: ContentGenerator/Problem.pm:1299
+msgid "ANSWERS ONLY CHECKED -- ANSWERS NOT RECORDED"
+msgstr "YANITLAR SADECE KONTROL EDİLİYOR -- YANITLAR KAYDEDİLMEDİ"
+
+#
+#: ContentGenerator/Instructor/ProblemSetList.pm:1708
+#: ContentGenerator/Instructor/UserList.pm:1391
+#: ContentGenerator/Instructor/UserList.pm:1463
+msgid "Abandon changes"
+msgstr "Değişiklikleri kaydetme"
+
+#
+#: ContentGenerator/Instructor/ProblemSetList.pm:1647
+msgid "Abandon export"
+msgstr "Dışa aktarımı iptal et"
+
+#
+#. ($eUserID)
+#: ContentGenerator.pm:848
+msgid "Acting as %1. "
+msgstr "%1 gibi davranılıyor."
+
+#
+#: ContentGenerator/Instructor/UserList.pm:1927
+msgid "Active"
+msgstr "Aktif"
+
+#
+#: ContentGenerator/Instructor/UserList.pm:1142
+msgid "Add how many students?"
+msgstr "Kaç öğrenci eklenecek?"
+
+#
+#: ContentGenerator/Instructor/UserList.pm:1220
+msgid "Add which new users?"
+msgstr "Hangi yeni kullanıcılar eklenecek?"
+
+#
+#: ContentGenerator/Problem.pm:311
+msgid "All of the answers above are correct."
+msgstr "Yanıtların tümü doğru"
+
+#
+#. ($verb)
+#: ContentGenerator/Instructor/ProblemSetList.pm:1052
+msgid "All selected sets %1 all students"
+msgstr "Bütün seçili setler her e %1"
+
+#
+#. ($verb)
+#: ContentGenerator/Instructor/ProblemSetList.pm:1046
+msgid "All sets %1 all students"
+msgstr "Bütün setler %1 all students"
+
+#
+#. ($verb)
+#: ContentGenerator/Instructor/ProblemSetList.pm:1049
+msgid "All visible sets %1 all students"
+msgstr "Görünür bütün setler her öğrenciye %1"
+
+#
+#: ContentGenerator/Instructor/ProblemSetList.pm:446
+#: ContentGenerator/Instructor/ProblemSetList.pm:832
+#: ContentGenerator/Instructor/ProblemSetList.pm:870
+msgid "Answer Date"
+msgstr "Cevap tarihi"
+
+#
+#: ContentGenerator/Problem.pm:242
+msgid "Answer Preview"
+msgstr "Gösterim"
+
+#
+#: ContentGenerator/Instructor/ProblemSetList.pm:531
+msgid "Any changes made below will be reflected in the set for ALL students."
+msgstr "Aşağıda yapılan değişiklikler seti çözen HER öğrenci için uygulanacakç"
+
+#
+#: ContentGenerator.pm:1481
+msgid "Apply Options"
+msgstr "Seçenekleri Uygula"
+
+#
+#: ContentGenerator/Instructor/ProblemSetList.pm:1545
+msgid "Assign this set to which users?"
+msgstr "Bu set hangi kullanıcılara ödev verilecek?"
+
+#
+#: ContentGenerator/Instructor/UserList.pm:2064
+msgid "Assigned Sets"
+msgstr "Ödev verilmiş setler"
+
+#
+#. ($fully)
+#: ContentGenerator/Problem.pm:315
+msgid "At least one of the answers above is NOT %1correct."
+msgstr "Yanıtların en az bir tanesi %1doğru değil."
+
+#
+#: ContentGenerator/ProblemSet.pm:350
+msgid "Attempts"
+msgstr "Deneme sayısı"
+
+#
+#. ($eUserID,$@)
+#: ContentGenerator/Options.pm:71
+msgid "Can't get password record for effective user '%1': %2"
+msgstr "Mevcut kullanıcı için şifre bilgileri alınamadı '%1': %2"
+
+#
+#. ($userID,$@)
+#: ContentGenerator/Options.pm:68
+msgid "Can't get password record for user '%1': %2"
+msgstr "kullanıcı için şifre bilgileri alınamadı '%1': %2"
+
+#
+#: ContentGenerator/Options.pm:142
+msgid "Change Email Address"
+msgstr "E-posta Adresi Değiştir"
+
+#
+#: ContentGenerator/Options.pm:61
+msgid "Change Password"
+msgstr "Şifre Değiştir"
+
+#
+#: ContentGenerator/Instructor/UserList.pm:1409
+#: ContentGenerator/Instructor/UserList.pm:1481
+msgid "Changes abandoned"
+msgstr "Değişiklikler kaydedilmedi"
+
+#
+#: ContentGenerator/Instructor/UserList.pm:1457
+msgid "Changes saved"
+msgstr "Değişiklikler kaydedildi"
+
+#
+#: ContentGenerator/Problem.pm:1118
+msgid "Check Answers"
+msgstr "Yanıtları kontrol et"
+
+#
+#: ContentGenerator/Problem.pm:1227
+msgid "Checking additional error messages"
+msgstr "Diğer hata mesajları kontrol ediliyor"
+
+#
+#: ContentGenerator/Instructor/ProblemSetList.pm:1011
+msgid "Choose visibility of the sets to be affected"
+msgstr "Etkilenecek setlerin görünürlüğünü seçin"
+
+#
+#: ContentGenerator/Instructor/ProblemSetList.pm:1084
+#: ContentGenerator/Instructor/ProblemSetList.pm:982
+msgid "Choose which sets to be affected"
+msgstr "Hangi setlerin etkileneceğini seçin"
+
+#
+#: ContentGenerator/Instructor/ProblemSetList.pm:597
+#: ContentGenerator/Instructor/UserList.pm:550
+#: ContentGenerator/ProblemSets.pm:288
+msgid "Clear"
+msgstr "Temizle"
+
+#
+#: ContentGenerator/Instructor/UserList.pm:562
+msgid "Click on the login name to edit individual problem set data, (e.g. due dates) for these students."
+msgstr "Bu öğrenciler için problem setlerinde değişiklik (teslim tarihi vb.) yapmak için isimlerinin üzerine tıklayın."
+
+#
+#: ContentGenerator/ProblemSets.pm:435
+msgid "Closed"
+msgstr "Kapalı"
+
+#
+#: ContentGenerator/Instructor/UserList.pm:2072
+#: ContentGenerator/Instructor/UserList.pm:290
+#: ContentGenerator/Instructor/UserList.pm:818
+#: ContentGenerator/Instructor/UserList.pm:861
+#: ContentGenerator/Instructor/UserList.pm:904
+msgid "Comment"
+msgstr "Yorum"
+
+#
+#. ($e_user_name)
+#: ContentGenerator/Options.pm:134
+#: ContentGenerator/Options.pm:95
+msgid "Confirm %1's New Password"
+msgstr "%1 için Şifre Onayı"
+
+#
+#: ContentGenerator/Login.pm:206
+msgid "Continue"
+msgstr "Devam"
+
+#
+#: ContentGenerator/Problem.pm:243
+msgid "Correct"
+msgstr "Doğru yanıt"
+
+#
+#. ($e_user_name,$@)
+#: ContentGenerator/Options.pm:80
+msgid "Couldn't change %1's password: %2"
+msgstr "%1 adlı kullanıcının şifresi değiştirilemedi: %2"
+
+#
+#. ($@)
+#: ContentGenerator/Options.pm:153
+msgid "Couldn't change your email address: %1"
+msgstr "E-posta adresiniz değiştirilemedi: %1"
+
+#
+#: ContentGenerator/ProblemSets.pm:71
+#: ContentGenerator/ProblemSets.pm:73
+msgid "Course Info"
+msgstr "Ders bilgileri"
+
+#
+#: ContentGenerator.pm:657
+#: ContentGenerator/Home.pm:94
+msgid "Courses"
+msgstr "Dersler"
+
+#
+#: ContentGenerator/Instructor/ProblemSetList.pm:1351
+msgid "Create as what type of set?"
+msgstr "Ne tip set oluşturulacak?"
+
+#
+#: ContentGenerator/Instructor/ProblemSetList.pm:1263
+#: ContentGenerator/Instructor/UserList.pm:1082
+msgid "Delete how many?"
+msgstr "Kaç tane silinecek?"
+
+#
+#: ContentGenerator/Instructor/ProblemSetList.pm:1119
+msgid "Disable"
+msgstr "Devre dişi bırak"
+
+#
+#: ContentGenerator.pm:1442
+msgid "Display Options"
+msgstr "Görünüm Seçenekleri"
+
+#
+#. ($pl)
+#: ContentGenerator/ProblemSets.pm:283
+msgid "Download Hardcopy for Selected %plural(%1,Set,Sets)"
+msgstr "Seçili Setleri Yazdırmak için dosya indir: [plural,_1,Set,Sets]"
+
+#
+#: ContentGenerator/ProblemSet.pm:321
+msgid "Download PDF or TeX Hardcopy for Current Set"
+msgstr "Mevcut seti Yazdırmak için dosya indir"
+
+#
+#: ContentGenerator/ProblemSets.pm:289
+msgid "Download PDF or TeX Hardcopy for Selected Sets"
+msgstr "Seçili Setleri Yazdırmak için dosya indir"
+
+#
+#: ContentGenerator/Instructor/ProblemSetList.pm:445
+#: ContentGenerator/Instructor/ProblemSetList.pm:831
+#: ContentGenerator/Instructor/ProblemSetList.pm:869
+msgid "Due Date"
+msgstr "Teslim Tarihi"
+
+#
+#: ContentGenerator/Instructor/ProblemSetList.pm:1812
+msgid "Duplicate this set and name it"
+msgstr "Bu seti çoğalt ve isimlendir"
+
+#
+#: ContentGenerator/Instructor/UserList.pm:1720
+#: ContentGenerator/Instructor/UserList.pm:1785
+#: ContentGenerator/Instructor/UserList.pm:1818
+msgid "Edit"
+msgstr "Düzenle"
+
+#
+#: ContentGenerator/Instructor/ProblemSetList.pm:603
+msgid "Edit All Set Data"
+msgstr "Bütün set bilgilerini düzenle"
+
+#
+#: ContentGenerator/Instructor/ProblemSetList.pm:439
+msgid "Edit Assigned Users"
+msgstr "Ödev verilmiş kullanıcıları düzenle"
+
+#
+#: ContentGenerator/Instructor/ProblemSetList.pm:438
+msgid "Edit Problems"
+msgstr "Soruları Düzenle"
+
+#
+#: ContentGenerator/Instructor/ProblemSetList.pm:441
+msgid "Edit Set Data"
+msgstr "Set Bilgilerini Düzenle"
+
+#
+#: ContentGenerator/Instructor/UserList.pm:961
+msgid "Edit Which Users?"
+msgstr "Hangi Kullanıcılar Düzenlenecek?"
+
+#
+#: ContentGenerator/Problem.pm:1011
+msgid "Edit this problem"
+msgstr "Bu soruyu düzenle"
+
+#
+#: ContentGenerator/Instructor/ProblemSetList.pm:923
+msgid "Edit which sets?"
+msgstr "Hangi setler düzenlecek?"
+
+#
+#: ContentGenerator/Instructor/UserList.pm:2067
+#: ContentGenerator/Instructor/UserList.pm:285
+#: ContentGenerator/Instructor/UserList.pm:813
+#: ContentGenerator/Instructor/UserList.pm:856
+#: ContentGenerator/Instructor/UserList.pm:899
+msgid "Email Address"
+msgstr "E-posta Adresi"
+
+#
+#: ContentGenerator.pm:1526
+#: ContentGenerator.pm:1549
+#: ContentGenerator.pm:1572
+msgid "Email instructor"
+msgstr "Eğitmene E-posta"
+
+#
+#: ContentGenerator/Instructor/ProblemSetList.pm:1120
+msgid "Enable"
+msgstr "Etkinleştir"
+
+#
+#: ContentGenerator/Instructor/ProblemSetList.pm:604
+msgid "Enable Reduced Credit"
+msgstr "Azaltılmiş Notu Etkinleştir"
+
+#
+#: ContentGenerator/Instructor/ProblemSetList.pm:1113
+msgid "Enable/Disable reduced scoring for selected sets"
+msgstr "Seçili setler için azaltılmış not seçenegini etkinleştir/kaldır"
+
+#
+#: ContentGenerator/Instructor/UserList.pm:815
+#: ContentGenerator/Instructor/UserList.pm:858
+#: ContentGenerator/Instructor/UserList.pm:901
+msgid "Enrollment Status"
+msgstr "Kayıt Durumu"
+
+#
+#: ContentGenerator/Instructor/UserList.pm:1321
+msgid "Enter filename below"
+msgstr "Aşağıya dosya adı girin"
+
+#
+#: ContentGenerator/Instructor/ProblemSetList.pm:1502
+msgid "Enter filenames below"
+msgstr "Aşağıya dosya isimlerini girin"
+
+#
+#: ContentGenerator/Problem.pm:240
+msgid "Entered"
+msgstr "Yanıt"
+
+#
+#: ContentGenerator/Instructor/ProblemSetList.pm:1671
+msgid "Export selected sets"
+msgstr "Şeçili setleri dışarı aktar"
+
+#
+#: ContentGenerator/Instructor/UserList.pm:1317
+msgid "Export to what kind of file?"
+msgstr "Ne çeşit dosyaya aktarılacak?"
+
+#
+#: ContentGenerator/Instructor/ProblemSetList.pm:1604
+msgid "Export which sets?"
+msgstr "Hangı setler dışarı aktarılacak?"
+
+#
+#: ContentGenerator/Instructor/UserList.pm:1292
+msgid "Export which users?"
+msgstr "Hangi kullanıcılar dışarı aktarılacak?"
+
+#
+#. ($@)
+#: ContentGenerator/Instructor/ProblemSetList.pm:1435
+msgid "Failed to create new set: %1"
+msgstr "Yeni set yaratılamadı: %1"
+
+#
+#: ContentGenerator/Instructor/ProblemSetList.pm:1374
+msgid "Failed to create new set: no set name specified!"
+msgstr "Yeni set oluşturulamadı: set adı belirtilmemiş!"
+
+#
+#. ($@)
+#: ContentGenerator/Instructor/ProblemSetList.pm:1848
+msgid "Failed to duplicate set: %1"
+msgstr "Set çoğaltılamadı: %1"
+
+#
+#: ContentGenerator/Instructor/ProblemSetList.pm:1832
+msgid "Failed to duplicate set: no set name specified!"
+msgstr "Set çoğaltılamadı: set adı belirtilmemiş!"
+
+#
+#: ContentGenerator/Instructor/ProblemSetList.pm:1396
+#: ContentGenerator/Instructor/ProblemSetList.pm:1830
+msgid "Failed to duplicate set: no set selected for duplication!"
+msgstr "Set çoğaltılamadı: herhangi bir set seçili değil!"
+
+#
+#. ($newSetID)
+#: ContentGenerator/Instructor/ProblemSetList.pm:1834
+msgid "Failed to duplicate set: set %1 already exists!"
+msgstr "Set çoğaltılamadı: set %1 zaten mevcut!"
+
+#
+#: ContentGenerator/Instructor/UserList.pm:1339
+msgid "Filename"
+msgstr "Dosya adı"
+
+#
+#: ContentGenerator/Instructor/UserList.pm:678
+msgid "Filter by what text?"
+msgstr "Hangi metin ile filtrelenecek?"
+
+#
+#: ContentGenerator/Instructor/UserList.pm:2065
+#: ContentGenerator/Instructor/UserList.pm:283
+#: ContentGenerator/Instructor/UserList.pm:811
+#: ContentGenerator/Instructor/UserList.pm:854
+#: ContentGenerator/Instructor/UserList.pm:897
+msgid "First Name"
+msgstr "İsim"
+
+#
+#: ContentGenerator/Instructor/UserList.pm:1020
+msgid "Give new password to which users?"
+msgstr "Hangi kullanıcılara yeni şifre verilecek?"
+
+#
+#: ContentGenerator/Login.pm:231
+msgid "Guest Login"
+msgstr "Misafir Kullanıcı Girişi"
+
+#
+#: ContentGenerator/Instructor/ProblemSetList.pm:443
+#: ContentGenerator/Instructor/ProblemSetList.pm:829
+#: ContentGenerator/Instructor/ProblemSetList.pm:867
+msgid "Hardcopy Header"
+msgstr "Çıktı Dosyası Başlığı"
+
+#
+#: ContentGenerator/Instructor/ProblemSetList.pm:1017
+msgid "Hidden"
+msgstr "Gizli"
+
+#
+#: ContentGenerator.pm:667
+#: ContentGenerator/ProblemSet.pm:110
+#: ContentGenerator/ProblemSets.pm:226
+msgid "Homework Sets"
+msgstr "Soru Grupları"
+
+#
+#: ContentGenerator/Instructor/UserList.pm:558
+msgid "If a password field is left blank, the student's current password will be maintained."
+msgstr "Şifre alanı boş bırakılırsa kullanıcının mevcut şifresi kullanılır."
+
+#
+#: ContentGenerator/Instructor/ProblemSetList.pm:1498
+msgid "Import from where?"
+msgstr "Nereden aktarılacak?"
+
+#
+#: ContentGenerator/Instructor/ProblemSetList.pm:1473
+msgid "Import how many sets?"
+msgstr "Kaç set aktarılacak?"
+
+#
+#: ContentGenerator/Instructor/ProblemSetList.pm:1520
+msgid "Import sets with names"
+msgstr "Setleri isimleriyle beraber aktar"
+
+#
+#: ContentGenerator/Instructor/UserList.pm:1165
+msgid "Import users from what file?"
+msgstr "Kullanıcılar hangi dosyadan aktarılacak?"
+
+#
+#: ContentGenerator/Instructor/UserList.pm:1927
+msgid "Inactive"
+msgstr "Aktif Değil"
+
+#
+#: Authen.pm:148
+msgid "Invalid user ID or password."
+msgstr "Yanlış kullanıcı adı ya da şifre."
+
+#
+#: ContentGenerator/Instructor/UserList.pm:2066
+#: ContentGenerator/Instructor/UserList.pm:284
+#: ContentGenerator/Instructor/UserList.pm:812
+#: ContentGenerator/Instructor/UserList.pm:855
+#: ContentGenerator/Instructor/UserList.pm:898
+msgid "Last Name"
+msgstr "Soyadı"
+
+#
+#: ContentGenerator.pm:730
+msgid "Library Browser"
+msgstr "Soru Kütüphaneleri"
+
+#
+#: ContentGenerator.pm:731
+msgid "Library Browser 2"
+msgstr "Soru Kütüphane Tarayıcısı 2"
+
+#
+#: ContentGenerator/Logout.pm:124
+msgid "Log In Again"
+msgstr "Tekrar giriş yap"
+
+#
+#: ContentGenerator.pm:845
+#: ContentGenerator.pm:847
+msgid "Log Out"
+msgstr "Çıkış Yap"
+
+#
+#. ($userID)
+#: ContentGenerator.pm:845
+#: ContentGenerator.pm:847
+msgid "Logged in as %1. "
+msgstr "%1 olarak giriş yaptınız."
+
+#
+#: ContentGenerator/Login.pm:74
+#: ContentGenerator/Login.pm:77
+msgid "Login Info"
+msgstr "Giriş Bilgileri"
+
+#
+#: ContentGenerator/Instructor/UserList.pm:2062
+#: ContentGenerator/Instructor/UserList.pm:282
+#: ContentGenerator/Instructor/UserList.pm:810
+#: ContentGenerator/Instructor/UserList.pm:853
+#: ContentGenerator/Instructor/UserList.pm:896
+msgid "Login Name"
+msgstr "Kullanıcı adı"
+
+#
+#: ContentGenerator/Instructor/UserList.pm:2063
+msgid "Login Status"
+msgstr "Durumu"
+
+#
+#: ContentGenerator.pm:654
+msgid "Main Menu"
+msgstr "Ana Menü"
+
+#
+#: ContentGenerator/Instructor/ProblemSetList.pm:705
+msgid "Match on what? (separate multiple IDs with commas)"
+msgstr "Hangi özellikler eşleştirilecek? (birden fazla kullanıcı adını virgülle ayırın)"
+
+#
+#: ContentGenerator/Problem.pm:245
+msgid "Messages"
+msgstr "Mesajlar"
+
+#
+#: ContentGenerator/ProblemSet.pm:349
+#: ContentGenerator/ProblemSets.pm:212
+#: ContentGenerator/ProblemSets.pm:213
+msgid "Name"
+msgstr "Grup Adı"
+
+#
+#: ContentGenerator/Instructor/ProblemSetList.pm:1328
+msgid "Name the new set"
+msgstr "Yeni seti adlandırın"
+
+#
+#: ContentGenerator/Instructor/UserList.pm:1937
+#: ContentGenerator/Instructor/UserList.pm:2077
+msgid "New Password"
+msgstr "Yeni Şifre"
+
+#
+#: ContentGenerator/Instructor/UserList.pm:1519
+msgid "New passwords saved"
+msgstr "Yeni şifreler kaydedildi"
+
+#
+#: ContentGenerator/Problem.pm:864
+#: ContentGenerator/Problem.pm:866
+msgid "Next Problem"
+msgstr "Sonraki Soru"
+
+#
+#: ContentGenerator/Instructor/ProblemSetList.pm:2625
+#: ContentGenerator/Instructor/ProblemSetList.pm:2626
+msgid "No"
+msgstr "Hayır"
+
+#
+#: ContentGenerator/Instructor/ProblemSetList.pm:1043
+#: ContentGenerator/Instructor/ProblemSetList.pm:1145
+msgid "No change made to any set"
+msgstr "Herhangi bir sete değişiklik yapılmadı"
+
+#
+#: ContentGenerator/Instructor/ProblemSetList.pm:1217
+msgid "No sets selected for scoring"
+msgstr "Notlamak için bir set seçili değil"
+
+#
+#: ContentGenerator/Instructor/ProblemSetList.pm:266
+msgid "No sets selected for scoring."
+msgstr "Notlama için bir set seçili değil."
+
+#
+#: ContentGenerator/Instructor/ProblemSetList.pm:2722
+msgid "No sets shown.  Choose one of the options above to list the sets in the course."
+msgstr "Hiç set gösterilmiyor. Dersteki setleri görmek için yukarıdaki seçeneklerden birini işaretleyin."
+
+#
+#: ContentGenerator/Instructor/UserList.pm:2110
+msgid ""
+"No students shown.  Choose one of the options above to \n"
+"\t              list the students in the course."
+msgstr "Hiç öğrenci gösterilmiyor. Dersteki öğrencileri görmek için yukarıdaki seçeneklerden birisini seçin."
+
+#
+#: ContentGenerator.pm:851
+msgid "Not logged in."
+msgstr "Giriş yapmadınız."
+
+#
+#: ContentGenerator/Problem.pm:975
+msgid "Note"
+msgstr "Not"
+
+#
+#: ContentGenerator/Instructor/ProblemSetList.pm:444
+#: ContentGenerator/Instructor/ProblemSetList.pm:830
+#: ContentGenerator/Instructor/ProblemSetList.pm:868
+msgid "Open Date"
+msgstr "Açılış tarihi"
+
+#
+#: ContentGenerator/Problem.pm:1307
+msgid "PREVIEW ONLY -- ANSWERS NOT RECORDED"
+msgstr "GÖSTERİM -- YANITLAR KAYDEDİLMEDİ "
+
+#
+#. (timestamp($self)
+#: ContentGenerator.pm:953
+msgid "Page generated at %1"
+msgstr "Sayfa %1de yaratıldı"
+
+#
+#: ContentGenerator/Login.pm:202
+msgid "Password"
+msgstr "Sifre"
+
+#
+#: ContentGenerator/Instructor/UserList.pm:2073
+#: ContentGenerator/Instructor/UserList.pm:291
+#: ContentGenerator/Instructor/UserList.pm:819
+#: ContentGenerator/Instructor/UserList.pm:862
+#: ContentGenerator/Instructor/UserList.pm:905
+msgid "Permission Level"
+msgstr "Yetki seviyesi"
+
+#
+#. (CGI::b($r->maketext($course)
+#: ContentGenerator/Login.pm:154
+msgid "Please enter your username and password for %1 below:"
+msgstr "Lütfen %1 dersi için kullanici adi ve sifrenizi giriniz:"
+
+#
+#: ContentGenerator/Instructor/ProblemSetList.pm:396
+msgid "Please select action to be performed."
+msgstr "Lütfen gerçekleştirilecek işlemi seçin."
+
+#
+#: ContentGenerator/Problem.pm:1116
+msgid "Preview Answers"
+msgstr "Yanıtları görüntüle"
+
+#
+#: ContentGenerator/Problem.pm:850
+#: ContentGenerator/Problem.pm:852
+msgid "Previous Problem"
+msgstr "Önceki Soru"
+
+#
+#. ($problemID)
+#: ContentGenerator.pm:686
+#: ContentGenerator/Problem.pm:808
+#: ContentGenerator/ProblemSet.pm:424
+msgid "Problem %1"
+msgstr "Soru %1"
+
+#
+#: ContentGenerator/Problem.pm:856
+#: ContentGenerator/Problem.pm:858
+msgid "Problem List"
+msgstr "Soru Listesi"
+
+#
+#: ContentGenerator/Problem.pm:796
+#: ContentGenerator/ProblemSet.pm:346
+msgid "Problems"
+msgstr "Sorular"
+
+#
+#: ContentGenerator/Instructor/UserList.pm:2071
+#: ContentGenerator/Instructor/UserList.pm:289
+#: ContentGenerator/Instructor/UserList.pm:817
+#: ContentGenerator/Instructor/UserList.pm:860
+#: ContentGenerator/Instructor/UserList.pm:903
+msgid "Recitation"
+msgstr "Problem cozum dersi"
+
+#
+#. ($verb)
+#: ContentGenerator/Instructor/ProblemSetList.pm:1148
+msgid "Reduced Credit %1 for all sets"
+msgstr "Bütün setler için notlar %1 azaltıldı"
+
+#
+#. ($verb)
+#: ContentGenerator/Instructor/ProblemSetList.pm:1154
+msgid "Reduced Credit %1 for selected sets"
+msgstr "Seçili setler için notlar %1 azaltıldı"
+
+#
+#. ($verb)
+#: ContentGenerator/Instructor/ProblemSetList.pm:1151
+msgid "Reduced Credit %1 for visable sets"
+msgstr "Görünür setler için notlar %1 azaltıldı"
+
+#
+#: ContentGenerator/Instructor/ProblemSetList.pm:2523
+msgid "Reduced Credit Disabled"
+msgstr "Azaltılmış not etkin değil"
+
+#
+#: ContentGenerator/Instructor/ProblemSetList.pm:2523
+#: ContentGenerator/Instructor/ProblemSetList.pm:448
+msgid "Reduced Credit Enabled"
+msgstr "Azaltılmış not etkin"
+
+#
+#. ($beginReducedScoringPeriod)
+#: ContentGenerator/ProblemSets.pm:459
+msgid "Reduced Credit Starts: %1"
+msgstr "Azaltılmiş not başlangıç tarihi: %1"
+
+#
+#: ContentGenerator/ProblemSet.pm:351
+msgid "Remaining"
+msgstr "Kalan hak"
+
+#
+#: ContentGenerator/Login.pm:204
+msgid "Remember Me"
+msgstr "Beni hatırla"
+
+#
+#: ContentGenerator/Instructor/UserList.pm:1190
+msgid "Replace which users?"
+msgstr "Hangi kullanıcılar değiştirilecek?"
+
+#
+#: ContentGenerator.pm:799
+msgid "Report bugs"
+msgstr "Hataları bildir"
+
+#
+#: ContentGenerator/Problem.pm:244
+msgid "Result"
+msgstr "Sonuç"
+
+#
+#. (CGI::i($self->$actionHandler(\%genericParams, \%actionParams, \%tableParams)
+#: ContentGenerator/Instructor/UserList.pm:376
+msgid "Result of last action performed: %1"
+msgstr "En son gerçekleştilen işlemin sonucu: %1"
+
+#
+#: ContentGenerator/Instructor/ProblemSetList.pm:386
+msgid "Results of last action performed"
+msgstr "En son gerçekleştirilen işlemin sonuçları"
+
+#
+#: ContentGenerator/Instructor/ProblemSetList.pm:1732
+#: ContentGenerator/Instructor/UserList.pm:1415
+#: ContentGenerator/Instructor/UserList.pm:1487
+msgid "Save changes"
+msgstr "Değişiklikleri kaydet"
+
+#
+#: ContentGenerator/Instructor/ProblemSetList.pm:1186
+msgid "Score which sets?"
+msgstr "Hangi setler notlanacak?"
+
+#
+#: ContentGenerator/Instructor/UserList.pm:2070
+#: ContentGenerator/Instructor/UserList.pm:288
+#: ContentGenerator/Instructor/UserList.pm:816
+#: ContentGenerator/Instructor/UserList.pm:859
+#: ContentGenerator/Instructor/UserList.pm:902
+msgid "Section"
+msgstr "Bölüm"
+
+#
+#: ContentGenerator/Instructor/ProblemSetList.pm:582
+msgid "Select all sets"
+msgstr "Bütün setleri seç"
+
+#
+#: ContentGenerator/Instructor/UserList.pm:535
+msgid "Select all users"
+msgstr "Bütün kullanıcıları seç"
+
+#
+#: ContentGenerator/Instructor/ProblemSetList.pm:534
+#: ContentGenerator/Instructor/UserList.pm:512
+msgid "Select an action to perform"
+msgstr "Yapılacak işlemi seç"
+
+#
+#. ($newSetID)
+#: ContentGenerator/Instructor/ProblemSetList.pm:1375
+msgid "Set %1 exists.  No set created"
+msgstr "Set %1 mevcut. Yeni set oluşturulmadı"
+
+#: ContentGenerator/Instructor/ProblemSetList.pm:440
+msgid "Set Definition Filename"
+msgstr "Set Tanım Dosyası Adı"
+
+#
+#: ContentGenerator/Instructor/ProblemSetList.pm:442
+#: ContentGenerator/Instructor/ProblemSetList.pm:828
+#: ContentGenerator/Instructor/ProblemSetList.pm:866
+msgid "Set Header"
+msgstr "Set Başlığı"
+
+#
+#: ContentGenerator/ProblemSet.pm:273
+#: ContentGenerator/ProblemSet.pm:275
+msgid "Set Info"
+msgstr "Set Bilgileri"
+
+#
+#: ContentGenerator/Instructor/ProblemSetList.pm:2700
+msgid "Set List"
+msgstr "Set Listesi"
+
+#
+#: ContentGenerator/Instructor/ProblemSetList.pm:827
+#: ContentGenerator/Instructor/ProblemSetList.pm:865
+msgid "Set Name"
+msgstr "Set Adı"
+
+#
+#: ContentGenerator/ProblemSet.pm:153
+msgid "Sets"
+msgstr "Setler"
+
+#
+#: ContentGenerator/Problem.pm:1063
+msgid "Show Hints"
+msgstr "İpuçlarını göster"
+
+#
+#: ContentGenerator/Problem.pm:1370
+msgid "Show Past Answers"
+msgstr "Önceki Yanıtları Göster"
+
+#
+#: ContentGenerator/Problem.pm:1082
+msgid "Show Solutions"
+msgstr "Çözümleri göster"
+
+#
+#: ContentGenerator/Instructor/UserList.pm:645
+msgid "Show Which Users?"
+msgstr "Hangi kullanıcılar gösterilecek?"
+
+#
+#: ContentGenerator/Problem.pm:1044
+msgid "Show correct answers"
+msgstr "Doğru yanıtları göster"
+
+#
+#: ContentGenerator/Instructor/ProblemSetList.pm:683
+msgid "Show which sets?"
+msgstr "Hangi setler gösterilecek?"
+
+#
+#: ContentGenerator/Instructor/ProblemSetList.pm:497
+#: ContentGenerator/Instructor/UserList.pm:475
+msgid "Show/Hide Site Description"
+msgstr "Web Alanı Açıklamasını Göster/Gizle"
+
+#
+#. (scalar @visibleSetIDs, scalar @allSetIDs)
+#: ContentGenerator/Instructor/ProblemSetList.pm:607
+msgid "Showing %1 out of %2 sets."
+msgstr "%2 setin %1 tanesi gösteriliyor."
+
+#
+#. (scalar @Users, scalar @allUserIDs)
+#: ContentGenerator/Instructor/UserList.pm:556
+msgid "Showing %1 out of %2 users"
+msgstr "%2 kullanıcının %1 tanesi gösteriliyor."
+
+#
+#: ContentGenerator/Login.pm:96
+#: ContentGenerator/Login.pm:99
+msgid "Site Information"
+msgstr "Web Alanı Bilgileri"
+
+#
+#: ContentGenerator/Instructor/ProblemSetList.pm:821
+#: ContentGenerator/Instructor/UserList.pm:804
+msgid "Sort by"
+msgstr "Kriterlere Göre Sırala"
+
+#
+#. ($names{$primary}, $names{$secondary})
+#: ContentGenerator/Instructor/ProblemSetList.pm:899
+msgid "Sort by %1 and then by %2"
+msgstr "Önce %1 sonra %2 kriteriyle sırala"
+
+#
+#: ContentGenerator/Instructor/UserList.pm:2069
+#: ContentGenerator/Instructor/UserList.pm:287
+#: ContentGenerator/ProblemSet.pm:353
+#: ContentGenerator/ProblemSets.pm:215
+#: ContentGenerator/ProblemSets.pm:216
+msgid "Status"
+msgstr "Durumu"
+
+#
+#: ContentGenerator.pm:848
+msgid "Stop Acting"
+msgstr "Rol Yapmayı bırak"
+
+#
+#: ContentGenerator/Instructor/UserList.pm:2068
+#: ContentGenerator/Instructor/UserList.pm:286
+#: ContentGenerator/Instructor/UserList.pm:814
+#: ContentGenerator/Instructor/UserList.pm:857
+#: ContentGenerator/Instructor/UserList.pm:900
+msgid "Student ID"
+msgstr "Kullanıcı Adı"
+
+#
+#: ContentGenerator/Problem.pm:1127
+msgid "Submit Answers"
+msgstr "Yanıtları Gönder"
+
+#
+#. ($effectiveUser)
+#: ContentGenerator/Problem.pm:1124
+msgid "Submit Answers for %1"
+msgstr "%1 için Yanıtları Gönder"
+
+#
+#: ContentGenerator/Instructor/ProblemSetList.pm:1850
+msgid "Success"
+msgstr "Başarılı"
+
+#. ($newSetID)
+#: ContentGenerator/Instructor/ProblemSetList.pm:1437
+msgid "Successfully created new set %1"
+msgstr "Yeni set %1 başarıyla yaratıldı"
+
+#
+#. ($name)
+#: ContentGenerator/ProblemSets.pm:424
+#: ContentGenerator/ProblemSets.pm:433
+#: ContentGenerator/ProblemSets.pm:439
+msgid "Take %1 test"
+msgstr "%1 testini çöz"
+
+#
+#: ContentGenerator/Instructor/ProblemSetList.pm:598
+#: ContentGenerator/Instructor/UserList.pm:551
+msgid "Take Action!"
+msgstr "İşlemi Gerçekleştir!"
+
+#
+#: ContentGenerator/ProblemSets.pm:236
+msgid "Test Date"
+msgstr "Sınav Tarihi"
+
+#
+#: ContentGenerator/ProblemSets.pm:235
+msgid "Test Score"
+msgstr "Sınav Notu"
+
+#
+#: ContentGenerator.pm:954
+msgid "The WeBWorK Project"
+msgstr "WeBWorK Projesi"
+
+#
+#. ($fully)
+#: ContentGenerator/Problem.pm:307
+msgid "The answer above is NOT %1correct."
+msgstr "Yukarıdaki yanıt %1doğru değil."
+
+#
+#: ContentGenerator/Problem.pm:305
+msgid "The answer above is correct."
+msgstr "Yukarıdaki yanıt doğru."
+
+#
+#. (CGI::b($r->maketext("[_1]'s Current Password",$user_name)
+#: ContentGenerator/Options.pm:107
+msgid ""
+"The password you entered in the %1 \n"
+"\t\t\t\t\t\tfield does not match your current\n"
+"\t\t\t\t\t\tpassword. Please retype your current password and try\n"
+"\t\t\t\t\t\tagain."
+msgstr "%1 alanına girdiğiniz şifre ile mevcut şifreniz uyuşmamaktadır. Lütfen şirfenizi girerek tekrar deneyiniz."
+
+#
+#. (CGI::b($r->maketext("[_1]'s New Password",$e_user_name)
+#: ContentGenerator/Options.pm:91
+msgid ""
+"The passwords you entered in the \n"
+"\t\t\t\t\t\t\t\t%1 and %2\n"
+"\t\t\t\t\t\t\t\tfields don't match. Please retype your new password and try\n"
+"\t\t\t\t\t\t\t\tagain."
+msgstr "%1 ve %2  alanlarına girdiğiniz şifreler uyuşmadı. Yeni şifrenizi girerek tekrar deneyiniz."
+
+#
+#. ($setName,$effectiveUser)
+#: ContentGenerator/ProblemSet.pm:308
+msgid "The selected problem set (%1) is not a valid set for %2"
+msgstr "Seçtiğiniz soru seti (%1) set %2 için geçerli değil"
+
+#
+#: ContentGenerator/Instructor/ProblemSetList.pm:859
+#: ContentGenerator/Instructor/UserList.pm:847
+#: ContentGenerator/Instructor/UserList.pm:890
+msgid "Then by"
+msgstr "sonra"
+
+#
+#: ContentGenerator/ProblemSet.pm:365
+msgid "This homework set contains no problems."
+msgstr "Bu soru grubunda soru bulunmamaktadır."
+
+#
+#: ContentGenerator/Problem.pm:1175
+msgid "This homework set is closed."
+msgstr "Bu soru grubu kapalı."
+
+#
+#: ContentGenerator/Problem.pm:1173
+msgid "This homework set is not yet open."
+msgstr "Bu soru grubu henüz açık değil."
+
+#
+#: ContentGenerator/Problem.pm:611
+msgid "This problem will not count towards your grade."
+msgstr "Bu soru, notunuzu etkilemeyecektir."
+
+#
+#. (CGI::font({class=>$visiblityStateClass}, $visiblityStateText)
+#: ContentGenerator/Problem.pm:605
+#: ContentGenerator/ProblemSet.pm:88
+msgid "This set is %1"
+msgstr "Bu set %1"
+
+#
+#: ContentGenerator/Instructor/ProblemSetList.pm:588
+msgid "Unselect all sets"
+msgstr "Bütün setlerdeki seçimi kaldır"
+
+#
+#: ContentGenerator/Instructor/UserList.pm:541
+msgid "Unselect all users"
+msgstr "Bütün kullanıcılardaki seçimi kaldir"
+
+#
+#: ContentGenerator/Instructor/ProblemSetList.pm:2683
+msgid "Use System Default"
+msgstr "Varsayılan Ayarları Kullan"
+
+#
+#: ContentGenerator/Login.pm:200
+msgid "Username"
+msgstr "Kullanici adi"
+
+#
+#: ContentGenerator/Instructor/UserList.pm:2087
+msgid "Users List"
+msgstr "Kullanıcı Listesi"
+
+#
+#. ($names{$primary}, $names{$secondary}, $names{$ternary})
+#: ContentGenerator/Instructor/UserList.pm:938
+msgid "Users sorted by %1, then by %2, then by %3"
+msgstr "Kullanıcılar sırasıyla %1, %2 ve %3 kriterlerine göre sıları"
+
+#
+#: ContentGenerator/ProblemSet.pm:230
+msgid "Viewing temporary file"
+msgstr "Geçici dosya gösteriliyor"
+
+#
+#: ContentGenerator/Problem.pm:1332
+#: ContentGenerator/ProblemSets.pm:63
+msgid "Viewing temporary file: "
+msgstr "Geçici dosya görüntüleniyor: "
+
+#
+#: ContentGenerator/Instructor/ProblemSetList.pm:833
+#: ContentGenerator/Instructor/ProblemSetList.pm:871
+msgid "Visibility"
+msgstr "Görünürlük"
+
+#
+#: ContentGenerator/Instructor/ProblemSetList.pm:1018
+#: ContentGenerator/Instructor/ProblemSetList.pm:447
+msgid "Visible"
+msgstr "Görünür"
+
+#
+#: ContentGenerator/Instructor/ProblemSetList.pm:1259
+#: ContentGenerator/Instructor/UserList.pm:1078
+msgid "Warning: Deletion destroys all user-related data and is not undoable!"
+msgstr "Dikkat: Silme işlemi kullanıcının bütün bilgilerini yok eder ve bu işlem geri döndürelemez!"
+
+#
+#: ContentGenerator/Home.pm:87
+msgid "Welcome to WeBWorK!"
+msgstr "WeBWorK sitemize hoşgeldiniz!"
+
+#
+#: ContentGenerator/Instructor/UserList.pm:665
+msgid "What field should filtered users match on?"
+msgstr "Seçili kullanıcılar hangi kriterlerde eşleşmeli?"
+
+#
+#: ContentGenerator/ProblemSet.pm:352
+msgid "Worth"
+msgstr "Değeri"
+
+#
+#: ContentGenerator/Instructor/ProblemSetList.pm:2625
+#: ContentGenerator/Instructor/ProblemSetList.pm:2626
+msgid "Yes"
+msgstr "Evet"
+
+#
+#: ContentGenerator/Instructor/ProblemSetList.pm:306
+#: ContentGenerator/Instructor/ProblemSetList.pm:418
+#: ContentGenerator/Instructor/UserList.pm:262
+msgid "You are not authorized to access the instructor tools."
+msgstr "Eğitmen araçlarına erişim yetkiniz yok."
+
+#
+#: ContentGenerator/Instructor/ProblemSetList.pm:339
+msgid "You are not authorized to modify homework sets."
+msgstr "Ödev setlerini değiştirme yetkiniz yok."
+
+#
+#: ContentGenerator/Instructor/ProblemSetList.pm:344
+msgid "You are not authorized to modify set definition files."
+msgstr "Set tanım dosyalarını değiştirme yetkiniz yok."
+
+#
+#: ContentGenerator/Instructor/UserList.pm:329
+#: ContentGenerator/Instructor/UserList.pm:335
+msgid "You are not authorized to modify student data"
+msgstr "Öğrenci bilgilerini değiştirme yetkisine sahip değilsiniz."
+
+#
+#: ContentGenerator/Instructor/ProblemSetList.pm:389
+#: ContentGenerator/Instructor/UserList.pm:380
+msgid "You are not authorized to perform this action."
+msgstr "Bu işlemi gerçekleştirme yetkiniz yok."
+
+#
+#: ContentGenerator/Instructor/UserList.pm:1121
+msgid "You cannot delete yourself!"
+msgstr "Kendinizi silemezsiniz!"
+
+#
+#: ContentGenerator/Options.pm:163
+#: ContentGenerator/Options.pm:180
+msgid "You do not have permission to change email addresses."
+msgstr "Adres değiştirmek için yetkiniz yok."
+
+#
+#: ContentGenerator/Options.pm:117
+#: ContentGenerator/Options.pm:139
+msgid "You do not have permission to change your password."
+msgstr "Şifre değiştirmek için yetkiniz yok."
+
+#
+#. ($attemptsLeft,$attemptsLeftNoun)
+#: ContentGenerator/Problem.pm:1196
+msgid "You have %1 %2 remaining."
+msgstr "%1 %2 kaldı."
+
+#
+#. ($attemptsLeft)
+#: ContentGenerator/Problem.pm:1197
+msgid "You have %negquant(%1,unlimited attempts,attempt,attempts) remaining."
+msgstr "[negquant,_1,Sınırsız deneme hakkı,deneme hakkı,deneme hakkı] kaldı."
+
+#
+#. ($attempts)
+#: ContentGenerator/Problem.pm:1191
+msgid "You have attempted this problem %quant(%1,time,times)."
+msgstr "Bu soru için [quant,_1,deneme hakkı,deneme hakkı] kullandınız."
+
+#
+#: ContentGenerator/Logout.pm:119
+msgid "You have been logged out of WeBWorK."
+msgstr "WeBWorK sisteminden çıkış yaptınız."
+
+#
+#: ContentGenerator/Instructor/UserList.pm:1933
+msgid "You may not change your own password here!"
+msgstr "Şifrenizi buradan değiştiremezsiniz!"
+
+#
+#: Authen.pm:317
+msgid "You must specify a user ID."
+msgstr "Bir kullanıcı adı girmelisiniz."
+
+#
+#. (sprintf("%.0f%%", $pg->{result}->{score} * 100)
+#: ContentGenerator/Problem.pm:1192
+msgid "You received a score of %1 for this attempt."
+msgstr "Bu soru için %1 puan aldınız."
+
+#
+#: ContentGenerator/Options.pm:157
+msgid "Your email address has been changed."
+msgstr "E-posta adresiniz değiştirildi."
+
+#
+#. ($lastScore,$notCountedMessage)
+#: ContentGenerator/Problem.pm:1194
+msgid "Your overall recorded score is %1.  %2"
+msgstr "Ortalama puanınız: %1.  %2"
+
+#
+#: Authen.pm:416
+msgid "Your session has timed out due to inactivity. Please log in again."
+msgstr "Oturumunuz zaman aşımına uğradı. Lütfen tekrar giriş yapınız."
+
+#
+#: ContentGenerator/ProblemSet.pm:273
+#: ContentGenerator/ProblemSets.pm:71
+msgid "[edit]"
+msgstr "~[düzenle~]"
+
+#
+#: ContentGenerator/Instructor/UserList.pm:476
+msgid "_CLASSLIST_EDITOR_DESCRIPTION"
+msgstr "Bu sayfa sınıf listesi editörü. Burada derse kayıtlı öğrencilerin bilgilerini görebilir ve değiştirebilirsiniz. Sayfanın yukarısında hangi öğrencileri görmek istediğinizi belirleyebileceğiniz filtre formları var. Bunları kullanarak öğrencileri belirlediğiniz kriterlere göre sıralayabilir, öğrenci bilgilerini değiştirebilir,öğrencilere yeni şifre verebilir, dışarıdan öğrenci bilgileri alabilir yahut derse yeni öğrenciler ekleyip çıkarabilirsiniz. Hangi işlemi yapmak istiyorsanız seçin ve gerekli bilgileri girin daha sonra \"İşlemi Gerçekleştir!\" tuşuna basın. Sayfanın altında öğrencilerin bilgilerini gösteren bir tablo var."
+
+#
+#. (CGI::strong($r->maketext($course)
+#: ContentGenerator/Login.pm:151
+msgid "_EXTERNAL_AUTH_MESSAGE"
+msgstr "%1 harici bir kimlik doğrulama sistemi kullanıyor.  Bu sistemle kimliğinizi doğruladınız fakat bu derse giriş yapma izniniz yok."
+
+#
+#. (CGI::b($r->maketext("Guest Login")
+#: ContentGenerator/Login.pm:230
+msgid "_GUEST_LOGIN_MESSAGE"
+msgstr "Bu derse misafir olarak girebilirsiniz. Misafir olarak girmek için %1 linkine basın. "
+
+#
+#: ContentGenerator/Instructor/ProblemSetList.pm:498
+msgid "_HMWKSETS_EDITOR_DESCRIPTION"
+msgstr "Bu sayfa ödev setleri editörü. Burada bu derse ait ödev setlerini görebilir ve üzerlerinde değişiklikler yapabilirsiniz. Yukarıdaki formları kullanarak setleri istediğiniz kriterlere göre görüntüleyebilir, setleri düzenleyebilir, yeni setler yayımlayabilir, dışarıdan ödev setleri aktarabilir, ödevleri notlayabilir yahut var olan setleri silebilirsiniz.  Hangi işlemi yapmak istiyorsanız seçin ve gerekli bilgileri girin daha sonra \"İşlemi Gerçekleştir!\" tuşuna basın. Sayfanın aşağısında mevcut setler hakkında bir takım bilgiler var."
+
+#
+#. (CGI::b($r->maketext("Remember Me")
+#: ContentGenerator/Login.pm:155
+msgid "_LOGIN_MESSAGE"
+msgstr " Eğer %1 seçeneğini işaretlerseniz, giriş bilgileriniz kullandığınız tarayıcı tarafından hatırlanacak ve sonraki girişlerinizde kullanıcı adı ve şifre girmeden WebWork sayfalarını kullanabileceksiniz. Bu özellik, ortak kullanıma açık bilgisayarlar, güvenli olmayan bilgisayarlar, ve doğrudan kontrole sahip olmadığınız bilgisayarlarda kullanmak için güvenli değildir."
+
+#
+#. ($beginReducedScoringPeriod,$dueDate,$reducedScoringPerCent)
+#: ContentGenerator/ProblemSet.pm:333
+msgid "_REDUCED_CREDIT_MESSAGE_1"
+msgstr "Bu ödev seti için Azaltılmış Not süresi var. Bu süre %1 tarihinde başlıyor ve %2 tarihinde son buluyor. Bu süre içinde cevaplanan bütün sorular asıl değerlerinin yüzde %3 değerinde olacak."
+
+#
+#. ($beginReducedScoringPeriod,$dueDate,$reducedScoringPerCent)
+#: ContentGenerator/ProblemSet.pm:335
+msgid "_REDUCED_CREDIT_MESSAGE_2"
+msgstr "Bu ödev seti için Azaltılmış Not süresi vardı. Bu süre %1 tarihinde başladı ve %2 tarihinde bitti. Bu süre içinde cevaplanan bütün sorular asıl değerlerinin yüzde %3 değerinde notlandı."
+
+#
+#: ContentGenerator.pm:1951
+msgid "_REQUEST_ERROR"
+msgstr " WebWork bu problemi işlerken bir yazılım hatası ile karşılaştı. Problemin kendisinde bir hata olması muhtemeldir. Eğer bir öğrenci iseniz bu hatayı ilgili kişilere bildiriniz. Eğer yetkili bir kişiyseniz daha fazla bilgi için alttaki hata raporunu inceleyiniz."
+
+#
+#: ContentGenerator/Instructor/ProblemSetList.pm:1358
+msgid "a duplicate of the first selected set"
+msgstr "İlk seçilen setin bir kopyası"
+
+#
+#: ContentGenerator/Instructor/ProblemSetList.pm:1357
+msgid "a new empty set"
+msgstr "Boş bir yeni set"
+
+#
+#: ContentGenerator/Instructor/ProblemSetList.pm:1479
+msgid "a single set"
+msgstr "tek bir set"
+
+#
+#: ContentGenerator/Instructor/ProblemSetList.pm:1091
+#: ContentGenerator/Instructor/ProblemSetList.pm:1193
+#: ContentGenerator/Instructor/ProblemSetList.pm:1610
+#: ContentGenerator/Instructor/ProblemSetList.pm:689
+#: ContentGenerator/Instructor/ProblemSetList.pm:929
+#: ContentGenerator/Instructor/ProblemSetList.pm:989
+msgid "all sets"
+msgstr "bütün setler"
+
+#
+#: ContentGenerator/Instructor/ProblemSetList.pm:1551
+#: ContentGenerator/Instructor/UserList.pm:1026
+#: ContentGenerator/Instructor/UserList.pm:1298
+#: ContentGenerator/Instructor/UserList.pm:651
+#: ContentGenerator/Instructor/UserList.pm:967
+msgid "all users"
+msgstr "bütün kullanıcılar"
+
+#
+#: ContentGenerator/Instructor/UserList.pm:1196
+#: ContentGenerator/Instructor/UserList.pm:1226
+msgid "any users"
+msgstr "her kullanıcı"
+
+#
+#: ContentGenerator/Problem.pm:1165
+msgid "attempt"
+msgstr "deneme hakkı"
+
+#
+#: ContentGenerator/Problem.pm:1162
+#: ContentGenerator/Problem.pm:1165
+msgid "attempts"
+msgstr "deneme hakkı"
+
+#
+#: ContentGenerator/Instructor/ProblemSetList.pm:1726
+msgid "changes abandoned"
+msgstr "değişiklikler kaydedilmedi"
+
+#
+#: ContentGenerator/Instructor/ProblemSetList.pm:1790
+msgid "changes saved"
+msgstr "değişiklikler kaydedildi"
+
+#
+#: ContentGenerator/ProblemSets.pm:468
+msgid "closed, answers available"
+msgstr "kapalı, cevaplar açıklandı"
+
+#
+#. ($self->formatDateTime($set->answer_date)
+#: ContentGenerator/ProblemSets.pm:464
+msgid "closed, answers on %1"
+msgstr "kapalı, cevaplar %1 tarihinde"
+
+#
+#: ContentGenerator/ProblemSets.pm:466
+msgid "closed, answers recently available"
+msgstr "kapalı, cevaplar yeni açıklandı"
+
+#
+#: ContentGenerator/ProblemSets.pm:402
+msgid "completed."
+msgstr "tamamlandı."
+
+#
+#: ContentGenerator/Problem.pm:267
+msgid "completely"
+msgstr "tamamen"
+
+#
+#: ContentGenerator/Problem.pm:264
+msgid "correct"
+msgstr "doğru"
+
+#
+#. ($num)
+#: ContentGenerator/Instructor/ProblemSetList.pm:1310
+msgid "deleted %1 sets"
+msgstr "%1 set silindi."
+
+#
+#. ($num)
+#: ContentGenerator/Instructor/UserList.pm:1135
+msgid "deleted %1 users"
+msgstr "%1 kullanıcı silindi."
+
+#
+#: ContentGenerator/Instructor/ProblemSetList.pm:947
+msgid "editing all sets"
+msgstr "bütün setler düzenleniyor"
+
+#
+#: ContentGenerator/Instructor/UserList.pm:985
+msgid "editing all users"
+msgstr "bütün kullancılar düzenleniyor"
+
+#
+#: ContentGenerator/Instructor/ProblemSetList.pm:953
+msgid "editing selected sets"
+msgstr "seçili setler düzenleniyor"
+
+#
+#: ContentGenerator/Instructor/UserList.pm:991
+msgid "editing selected users"
+msgstr "seçili kullanıcılar düzenleniyor"
+
+#
+#: ContentGenerator/Instructor/ProblemSetList.pm:950
+msgid "editing visible sets"
+msgstr "görünür setler düzenleniyor"
+
+#
+#: ContentGenerator/Instructor/UserList.pm:988
+msgid "editing visible users"
+msgstr "görünür kullanıcılar düzenleniyor"
+
+#
+#: ContentGenerator/Instructor/ProblemSetList.pm:694
+msgid "enter matching set IDs below"
+msgstr "eşleşen ödev setlerini aşağıya girin"
+
+#
+#: ContentGenerator/Instructor/ProblemSetList.pm:1665
+msgid "export abandoned"
+msgstr "dışarı aktarım yapılmadı"
+
+#
+#: ContentGenerator/Instructor/ProblemSetList.pm:1629
+msgid "exporting all sets"
+msgstr "bürün setler dışarı aktarılıyor"
+
+#
+#: ContentGenerator/Instructor/ProblemSetList.pm:1636
+msgid "exporting selected sets"
+msgstr "seçili setler dışarı aktarılıyor"
+
+#
+#: ContentGenerator/Instructor/ProblemSetList.pm:1633
+msgid "exporting visible sets"
+msgstr "görünür setler dışarı aktarılıyor"
+
+#
+#: ContentGenerator/Instructor/UserList.pm:1044
+msgid "giving new passwords to all users"
+msgstr "bütün kullanıcılara yeni şifre veriliyor"
+
+#
+#: ContentGenerator/Instructor/UserList.pm:1050
+msgid "giving new passwords to selected users"
+msgstr "seçili kullanıcılara yeni şifre veriliyor"
+
+#
+#: ContentGenerator/Instructor/UserList.pm:1047
+msgid "giving new passwords to visible users"
+msgstr "görünür kullanıcılara yeni şifre veriliyor"
+
+#
+#: ContentGenerator/Instructor/ProblemSetList.pm:2522
+#: ContentGenerator/Problem.pm:603
+msgid "hidden"
+msgstr "gizli"
+
+#
+#: ContentGenerator/Problem.pm:604
+#: ContentGenerator/ProblemSet.pm:86
+msgid "hidden from students"
+msgstr "öğrenciler tarafından görülemez"
+
+#
+#: ContentGenerator/Instructor/ProblemSetList.pm:693
+msgid "hidden sets"
+msgstr "gizli setler"
+
+#
+#: ContentGenerator/Problem.pm:266
+msgid "incorrect"
+msgstr "yanlış"
+
+#
+#: ContentGenerator/Instructor/ProblemSetList.pm:1480
+msgid "multiple sets"
+msgstr "birden fazla set"
+
+#
+#: ContentGenerator/Problem.pm:864
+msgid "navNext"
+msgstr "&nbspSonraki"
+
+#
+#: ContentGenerator/Problem.pm:866
+msgid "navNextGrey"
+msgstr "&nbspSonraki"
+
+#
+#: ContentGenerator/Problem.pm:850
+msgid "navPrev"
+msgstr "&nbspÖnceki"
+
+#
+#: ContentGenerator/Problem.pm:852
+msgid "navPrevGrey"
+msgstr "&nbspÖnceki"
+
+#
+#: ContentGenerator/Problem.pm:856
+msgid "navProbList"
+msgstr "&nbspSorular"
+
+#
+#: ContentGenerator/Problem.pm:858
+msgid "navProbListGrey"
+msgstr "&nbspSorular"
+
+#
+#: ContentGenerator/ProblemSet.pm:110
+msgid "navUp"
+msgstr "&nbspYukarı"
+
+#
+#: ContentGenerator/Instructor/ProblemSetList.pm:1090
+#: ContentGenerator/Instructor/ProblemSetList.pm:1192
+#: ContentGenerator/Instructor/ProblemSetList.pm:1269
+#: ContentGenerator/Instructor/ProblemSetList.pm:690
+#: ContentGenerator/Instructor/ProblemSetList.pm:988
+msgid "no sets"
+msgstr "Set yok"
+
+#
+#: ContentGenerator/Instructor/ProblemSetList.pm:1552
+#: ContentGenerator/Instructor/UserList.pm:1088
+#: ContentGenerator/Instructor/UserList.pm:1199
+#: ContentGenerator/Instructor/UserList.pm:1227
+#: ContentGenerator/Instructor/UserList.pm:652
+msgid "no users"
+msgstr "kullanıcı yok"
+
+#
+#: ContentGenerator/ProblemSets.pm:430
+#: ContentGenerator/ProblemSets.pm:452
+msgid "now open, due "
+msgstr "açık, bitiş tarihi: "
+
+#
+#. ($self->formatDateTime($set->due_date()
+#: ContentGenerator/ProblemSets.pm:408
+msgid "open: complete by %1"
+msgstr "açık: %1 tarihine kadar tamamlayın"
+
+#
+#: ContentGenerator/ProblemSets.pm:405
+msgid "over time: closed."
+msgstr "süre bitti: kapalı."
+
+#
+#: ContentGenerator/Instructor/ProblemSetList.pm:1093
+#: ContentGenerator/Instructor/ProblemSetList.pm:1194
+#: ContentGenerator/Instructor/ProblemSetList.pm:1271
+#: ContentGenerator/Instructor/ProblemSetList.pm:1612
+#: ContentGenerator/Instructor/ProblemSetList.pm:691
+#: ContentGenerator/Instructor/ProblemSetList.pm:931
+#: ContentGenerator/Instructor/ProblemSetList.pm:991
+msgid "selected sets"
+msgstr "seçili setler"
+
+#
+#: ContentGenerator/Instructor/UserList.pm:1028
+#: ContentGenerator/Instructor/UserList.pm:1090
+#: ContentGenerator/Instructor/UserList.pm:1198
+#: ContentGenerator/Instructor/UserList.pm:1300
+#: ContentGenerator/Instructor/UserList.pm:653
+#: ContentGenerator/Instructor/UserList.pm:969
+msgid "selected users"
+msgstr "seçili kullanıcılar"
+
+#
+#: ContentGenerator/Instructor/ProblemSetList.pm:762
+msgid "showing all sets"
+msgstr "bütün setler gösteriliyor"
+
+#
+#: ContentGenerator/Instructor/UserList.pm:738
+msgid "showing all users"
+msgstr "bütün kullanıcılar gösteriliyor"
+
+#
+#: ContentGenerator/Instructor/UserList.pm:747
+msgid "showing matching users"
+msgstr "eşleşen kullanıcılar gösteriliyor"
+
+#
+#: ContentGenerator/Instructor/ProblemSetList.pm:765
+msgid "showing no sets"
+msgstr "hiçbir set gösterilmiyor"
+
+#
+#: ContentGenerator/Instructor/UserList.pm:741
+msgid "showing no users"
+msgstr "hiçbir kullanıcı gösterilmiyor"
+
+#
+#: ContentGenerator/Instructor/ProblemSetList.pm:768
+msgid "showing selected sets"
+msgstr "seçili setler gösteriliyor"
+
+#
+#: ContentGenerator/Instructor/UserList.pm:744
+msgid "showing selected users"
+msgstr "seçili kullanıcılar gösteriliyor"
+
+#
+#: ContentGenerator/Problem.pm:1124
+msgid "submitAnswers"
+msgstr "Yanıtları Gönder"
+
+#
+#: ContentGenerator/Problem.pm:1154
+msgid "time"
+msgstr "deneme hakkı"
+
+#
+#: ContentGenerator/Problem.pm:1154
+msgid "times"
+msgstr "deneme hakkı"
+
+#
+#: ContentGenerator/Problem.pm:1161
+#: ContentGenerator/ProblemSet.pm:427
+msgid "unlimited"
+msgstr "sınırsız"
+
+#
+#: ContentGenerator/Instructor/UserList.pm:654
+msgid "users who match on selected field"
+msgstr "seçili alanla eşleşen kullanıcılar"
+
+#
+#: ContentGenerator/Instructor/ProblemSetList.pm:2522
+#: ContentGenerator/Problem.pm:603
+msgid "visible"
+msgstr "Görünür"
+
+#
+#: ContentGenerator/Instructor/ProblemSetList.pm:1611
+#: ContentGenerator/Instructor/ProblemSetList.pm:692
+#: ContentGenerator/Instructor/ProblemSetList.pm:930
+msgid "visible sets"
+msgstr "görünür setler"
+
+#
+#: ContentGenerator/Problem.pm:604
+#: ContentGenerator/ProblemSet.pm:86
+msgid "visible to students"
+msgstr "öğrencilere görüntüleyebilir"
+
+#
+#: ContentGenerator/Instructor/UserList.pm:1027
+#: ContentGenerator/Instructor/UserList.pm:1197
+#: ContentGenerator/Instructor/UserList.pm:1299
+#: ContentGenerator/Instructor/UserList.pm:968
+msgid "visible users"
+msgstr "kullanıcılar görüntüleyebilir"
+
+#
+#. ($self->formatDateTime($set->open_date)
+#: ContentGenerator/ProblemSets.pm:420
+#: ContentGenerator/ProblemSets.pm:448
+msgid "will open on %1"
+msgstr "%1 tarihinde açılacak"
+
+#
+msgid "Add to which set?"
+msgstr "Hangi sete eklenecek?"
+
+#
+msgid "Course Information for course [_1]"
+msgstr "%1 dersinin bilgileri"
+
+#
+msgid "report bugs in this problem"
+msgstr "Soruda hata olduğunu bildir"
+
+#
+msgid "Problem [_1]"
+msgstr "Soru %1"
+
+#
+msgid "Cancel Password"
+msgstr "Şifreyi iptal et"
+
+#
+msgid "WeBWorK"
+msgstr "WeBWorK"
+
+#
+msgid "Audit"
+msgstr "Denetle"
+
+#
+msgid "Hardcopy Header for set [_1]"
+msgstr "Set %1 için yazdırılabilir dosya başlığı"
+
+#
+msgid "Report bugs in a WeBWorK question/problem using this link. The very first time you do this you will need to register with an email address so that information on the bug fix can be reported back to you."
+msgstr "WebWork veya soruyla ilgili hata bildirmek için bu linki kullanın. Bunu ilk kez yaparken e-posta adresinizle kayıt olmanız gerekmektedir."
+
+#
+msgid "Pad Fields"
+msgstr "tr: Pad Fields"
+
+#
+msgid "Set Header for set [_1]"
+msgstr "Set %1 başlığı"
+
+#
+msgid "Statistics for [_1]"
+msgstr "Set %1 istatistikleri"
+
+#
+msgid "Filter"
+msgstr "Filtre"
+
+#
+msgid "set [_1]/problem [_2]"
+msgstr " set %1/soru %2"
+
+#
+msgid "You are not authorized to modify problems."
+msgstr "Sorularda değişklik yapma yetkiniz yok."
+
+#
+msgid "hardcopy header file"
+msgstr "Yazdırılabilir ödev başlığı dosyası"
+
+#
+msgid "Write permissions have not been enabled in the templates directory.  No changes can be made."
+msgstr "Şablon klasörü yazmaya kapalı. Değişiklik yapılamaz."
+
+#
+msgid "Save [_1] and View"
+msgstr "%1 Kaydet ve Görüntüle"
+
+#
+msgid "Create"
+msgstr "Oluştur"
+
+#
+msgid "Changes in this file have not yet been permanently saved."
+msgstr "Dosyadaki değişiklikler henüz kalıcı olarak kaydedilmedi."
+
+#
+msgid "Instructor Tools"
+msgstr "Eğitmen Araçları"
+
+#
+msgid "Score"
+msgstr "Not"
+
+#
+msgid "Show in another window"
+msgstr "Yani pencerede göster"
+
+#
+msgid "Copied auxiliary files from [_1] to  new location at [_2]"
+msgstr "Ek dosyalar %1 dizininden %2 dizinine kopyalandı"
+
+#
+msgid "Unpublished"
+msgstr "Yayınlanmadı"
+
+#
+msgid "Login"
+msgstr "Devam et"
+
+#
+msgid "Email"
+msgstr "E-posta"
+
+#
+msgid "File Manager"
+msgstr "Dosya Yöneticisi"
+
+#
+msgid "Unable to change the hardcopy header for set [_1]. Unknown error."
+msgstr "%1 seti için yazdırılabilir dosya başlığı değiştirilemedi. Bilinmeyen hata."
+
+#
+msgid "Unable to make '[_1]' the set header for [_2]"
+msgstr "'%1' set %2 için dosya başlığı yapılamadı"
+
+#
+msgid "Can't determine user of temporary edit file [_1]."
+msgstr "Geçici dosya %1 için kullanıcı belirlenemedi."
+
+#
+msgid "Download a hardcopy of this homework set."
+msgstr "Bu set için yazdırılabilir dosya indirin."
+
+#
+msgid "Problem Editor"
+msgstr "Soru Düzenleyici"
+
+#
+msgid "The file '[_1]' is protected!"
+msgstr "'%1' dosyası korumalı!"
+
+#
+msgid "Top level of author information on the wiki."
+msgstr "Wikide yazar bilgilerinin en üst seviyesi."
+
+#
+msgid "Score selected set(s) and save to:"
+msgstr "Seçili setleri notla ve dosyaya kaydet:"
+
+#
+msgid "Save Password"
+msgstr "Şifreyi kaydet"
+
+#
+msgid "The file '[_1]' is a blank problem!"
+msgstr "'%1' dosyası boş bir soru!"
+
+#
+msgid "Add as what filetype?"
+msgstr "Hangi dosya tipi olarak eklenecek?"
+
+#
+msgid "no action"
+msgstr "İşlem yapma"
+
+#
+msgid "Added '[_1]' to [_2] as new set header"
+msgstr "'%1' dosyası %2 dosyasına yeni set başlığı olarak eklendi"
+
+#
+msgid "View statistics by set"
+msgstr "Setlere göre istatistikleri göster"
+
+#
+msgid "Set"
+msgstr "Set"
+
+#
+msgid "This is a blank problem template file and can not be edited directly. Use the 'Save as' action below to create a local copy of the file and add it to the current problem set."
+msgstr "Bu boş bir soru şablonu ve üzerinde değişiklik yapılamaz. Aşağıdaki farklı kaydet işlemini kullarak dosyanın yerel bir kopyasını oluşturdaktan sonra üzerinde değişiklik yapabilirsiniz."
+
+#
+msgid "Logout"
+msgstr "Çıkış"
+
+#
+msgid "You do not have permission to view the details of this error."
+msgstr "Bu hatanın detaylarını görmeye yetkiniz yok."
+
+#
+msgid "Reverting to original file '[_1]'"
+msgstr "Asıl dosyaya geri dönülüyor ('%1')"
+
+#
+msgid "Delete"
+msgstr "Sil"
+
+#
+msgid "Wiki summary page for MathObjects"
+msgstr "MathObjects için özet wiki sayfası"
+
+#
+msgid "Your score was recorded."
+msgstr "Notunuz kaydedildi."
+
+#
+msgid "You must specify an file name in order to save a new file."
+msgstr "Yeni dosya kaydetmek için dosya adı belirtmelisiniz."
+
+#
+msgid "To edit this text you must first make a copy of this file using the 'Save as' action below."
+msgstr "Bu dosyada değişiklik yapmak için önce 'Farklı Kaydet' seçeneğini kullanarak kaydetmeniz lazım."
+
+#
+msgid "unassigned problem file"
+msgstr "Ödev verilmemiş soru dosyası"
+
+#
+msgid "View statistics by student"
+msgstr "İstatistikleri öğrencilere göre göster"
+
+#
+msgid "Publish"
+msgstr "Yayımla"
+
+#
+msgid "Password/Email"
+msgstr "Şifre/E-posta"
+
+#
+msgid "Cancel Edit"
+msgstr "Düzenlemeyi iptal et"
+
+#
+msgid "Math Objects"
+msgstr "Matematik Nesneleri"
+
+#
+msgid "Snippets of PG code illustrating specific techniques"
+msgstr "Özel teknikleri gösteren PG yazılımı"
+
+#
+msgid "Error copying [_1] to [_2]"
+msgstr "Dosya %1, %2ye kopyalanarken hata oluştu"
+
+#
+msgid "Hmwk Sets Editor"
+msgstr "Ödev Setleri Düzenleyici"
+
+#
+msgid "This set is [_1] students."
+msgstr "Bu soru grubu öğrenciler tarafından %1."
+
+#
+msgid "header file"
+msgstr "Başlık dosyası"
+
+#
+msgid "Include Index"
+msgstr "Indeksi dahil et"
+
+#
+msgid "Display Mode"
+msgstr "Görünüm Modu"
+
+#
+msgid "You can earn partial credit on this problem."
+msgstr "Bu sorudan kısmi puan alabilirsiniz."
+
+#
+msgid "Write permissions have not been enabled in '[_1]'.  Changes must be saved to a different directory for viewing."
+msgstr "'%1' için yazma izinleri kapalı. Değişiklikler önce başka bir dizine kaydedilmeli."
+
+#
+msgid "blank problem"
+msgstr "boş soru"
+
+#
+msgid "Save Edit"
+msgstr "Düzenlemeyi kaydet"
+
+#
+msgid "Enrolled"
+msgstr "Kayıtlı"
+
+#
+msgid "Write permissions have not been enabled for '[_1]'.  Changes must be saved to another file for viewing."
+msgstr "'%1' için yazma izinleri kapalı. Değişiklikler önce başka bir dosyaya kaydedilmeli."
+
+#
+msgid "Note: this problem viewer is for viewing purposes only. As of right now, testing functionality is not possible."
+msgstr "Not: Bu soru görüntüleyici şu an sadece soruları görüntüleyebilir, soru çözme fonksiyonu şu an mevcut değil."
+
+#
+msgid "Save Export"
+msgstr "Dışa aktarımı kaydet"
+
+#
+msgid "webwork"
+msgstr "webwork"
+
+#
+msgid "Problem Viewer"
+msgstr "Soru Görüntüleyici"
+
+#
+msgid "submit button clicked"
+msgstr "gönder düğmesine basıldı"
+
+#
+msgid "Student Progress for [_1]"
+msgstr "%1 için öğrencilerin durumu"
+
+#
+msgid "A new file has been created at '[_1]' with the contents below. No changes have been made to set [_2]."
+msgstr "Aşağıdaki içerikle '%1' dosyası yaratıldı. Set %2de değişiklik yapılmadı."
+
+#
+msgid "Your score was not recorded because this problem has not been assigned to you."
+msgstr "Notunuz kaydedilmedi çünkü bu soru size yöneltilmedi."
+
+#
+msgid "Sort"
+msgstr "Sırala"
+
+#
+msgid "Add problem"
+msgstr "Soru ekle"
+
+#
+msgid "Author Info"
+msgstr "Yazar Bilgileri"
+
+#
+msgid "Replace [_1]"
+msgstr "%1in yerine koy"
+
+#
+msgid "Help"
+msgstr "Yardım"
+
+#
+msgid "Add Users"
+msgstr "Kullanıcı Ekle"
+
+#
+msgid "Problem Source Code"
+msgstr "Soru Kaynak Kodu"
+
+#
+msgid "Test snippets of PG code in interactive lab.  Good way to learn PG language."
+msgstr "Interaktif labaratuarda PG test yazılımları. PG yazılım dilini öğrenmek içi iyi bir kaynak."
+
+#
+msgid "Page generated at [_1] at [_2]"
+msgstr "Sayfa %1 at %2"
+
+#
+msgid "Import"
+msgstr "İçeri Aktar"
+
+#
+msgid "View Using Seed Number"
+msgstr "Tohum numarasını kullanarak göster"
+
+#
+msgid "Grades"
+msgstr "Notlar"
+
+#
+msgid "Published"
+msgstr "Yayınlandı"
+
+#
+msgid "Your score was not recorded because this homework set is closed."
+msgstr "Notunuz kaydedilemedi çünkü bu soru grubu kapalı."
+
+#
+msgid "The text box now contains the source of the original problem. You can recover lost edits by using the Back button on your browser."
+msgstr "Şu anda sorunun orijinal hali gösteriliyor. Kaydedilmemiş değişiklikleri kurtarmak için internet tarayıcınızın \"Geri\" tuşunu kullanın."
+
+#
+msgid "The file '[_1]' is a directory!"
+msgstr "'%1' dosyası bir dizin!"
+
+#
+msgid "Save As"
+msgstr "Farklı Kaydet: [TMPL]/"
+
+#
+msgid "Documentation from source code for PG modules and macro files. Often the most up-to-date information."
+msgstr "PG modülleri ve makro dosyaları hakkında bilgi dosyası. Genellikle en son bilgileri içerir."
+
+#
+msgid "Problem Techniques"
+msgstr "Soru Teknikleri"
+
+#
+msgid "Course Configuration"
+msgstr "Ders Seçenekleri"
+
+#
+msgid "Feedback"
+msgstr "Geri Bildirim"
+
+#
+msgid "Export"
+msgstr "Dışa aktar"
+
+#
+msgid "PG mark down syntax used to format WeBWorK questions. This interactive lab can help you to learn the techniques."
+msgstr "WebWork sorularında kullanılan PG kodu sözdizimi. Bu interaktif labaratuar, teknikleri öğrenmek için kullanılabilir."
+
+#
+msgid "Record Scores for Single Sets"
+msgstr "Tek set için notları kaydet"
+
+#
+msgid "Append to end of set [_1]"
+msgstr "Set %1in sonuna ekle"
+
+#
+msgid "Unrecognized saveMode: |[_1]|. Unknown error."
+msgstr "Tanımlanmamış kaydetme modu: |%1|. Bilinmeyen hata."
+
+#
+msgid "Your score was not recorded because there was a failure in storing the problem record to the database."
+msgstr "Notunuz kaydedilemedi, çünkü notun veritabanına kaydı sırasında bir hata oluştu."
+
+#
+msgid "The hardcopy header for set [_1] has been renamed to '[_2]'."
+msgstr "Set %1 için yazdırılabilir dosya başlığı '%2' olarak değiştirildi."
+
+#
+msgid "Save as"
+msgstr "Farklı kaydet"
+
+#
+msgid "Select action below"
+msgstr "Aşağıdan işlem seç"
+
+#
+msgid "The file '[_1]' cannot be found."
+msgstr "'%1' dosyası bulunamadı."
+
+#
+msgid "Unable to write to '[_1]': [_2]"
+msgstr "'%1' dosyasına yazılamadı: %2"
+
+#
+msgid "Save"
+msgstr "Kaydet"
+
+#
+msgid "File '[_1]' exists. File not saved. No changes have been made. You can change the file path for this problem manually from the 'Hmwk Sets Editor' page"
+msgstr "'%1' dosyası mevcut. Dosya kaydedilmedi. Hiçbir değişiklik yapılmadı. Bu sorunun dosya konumunu \"Set Düzenleyicisi\" sayfasından değiştirebilirsiniz."
+
+#
+msgid "The set header for set [_1] has been renamed to '[_2]'."
+msgstr "Set %1 başlığı '%2' olarak değiştirildi."
+
+#
+msgid "Error: This path is already in the temporary edit directory -- no new temporary file is created. path = [_1]"
+msgstr "Hata: Bu yol belirteci geçici düzenleme klasöründe mevcut -- yeni bir geçici dosya oluşturuldu. yol = %1"
+
+#
+msgid "Please use radio buttons to choose the method for saving this file. Can't recognize saveMode: |[_1]|."
+msgstr "Bu dosya için kaydetme modunu seçin. Kaydetme modu tanınmadı: |%1|."
+
+#
+msgid "Saved to file '[_1]'"
+msgstr "'%1' dosyasına kaydedildi"
+
+#
+msgid "Please specify a file to save to."
+msgstr "Lütfen kaydedilecek dosyayın belirtin."
+
+#
+msgid "The selected problem ([_1]) is not a valid problem for set [_2]."
+msgstr "Seçilen problem (%1), %2 soru drubu için geçerli bir soru değil."
+
+#
+msgid "Editing [_1] in file '[_2]'"
+msgstr "'%2' dosyası içinde %1 düzenleniyor"
+
+#
+msgid "Deleting temp file at [_1]"
+msgstr "%1 klasörindeki geçici dosya siliniyor"
+
+#
+msgid "hidden from"
+msgstr "görüntülenmiyor"
+
+#
+msgid "View student progress by set"
+msgstr "Setlere göre öğrenci gelişimini göster"
+
+#
+msgid "View"
+msgstr "Göster"
+
+#
+msgid "Resources"
+msgstr "Kaynaklar"
+
+#
+msgid "Scoring Download"
+msgstr "Notları İndir"
+
+#
+msgid "Duplicate"
+msgstr "Çoğalt"
+
+#
+msgid "This path |[_1]| is not the path to a temporary edit file."
+msgstr "Bu yol belirteci |%1| geçici düzenleme dosyası yolu değil."
+
+#
+msgid "visible to"
+msgstr "görüntüleniyor"
+
+#
+msgid "Unable to change the source file path for set [_1], problem [_2]. Unknown error."
+msgstr "Set %1, soru %2 için kaynak kodu yolu değiştirilemiyor. Bilinmeyen hata."
+
+#
+msgid "Course Administration"
+msgstr "Ders Yönetimi"
+
+#
+msgid "Added [_1] to [_2] as problem [_3]"
+msgstr "%1 sorusu %2 setine soru %3 olarak eklendi"
+
+#
+msgid "Options Information"
+msgstr "Seçenek Bilgileri"
+
+#
+msgid "Proctor"
+msgstr "Gözetmen"
+
+#
+msgid "Student Progress"
+msgstr "Öğrenci Gelişimi"
+
+#
+msgid "Revert"
+msgstr "Ters çevir"
+
+#
+msgid "Statistics"
+msgstr "İstatistikler"
+
+#
+msgid "Save as new independent problem"
+msgstr "Yeni bir soru olarak kaydet"
+
+#
+msgid "Scoring Tools"
+msgstr "Notlama Araçları"
+
+#
+msgid "The source file for 'set [_1] / problem [_2]' has been changed from [_3] to '[_4]'."
+msgstr "'set %1 / soru %2' için kaynak kodu %3'ten '%4'e değiştirildi."
+
+#
+msgid "Cancel Export"
+msgstr "Dışa aktarımı iptal et"
+
+#
+msgid "View student progress by student"
+msgstr "tr: View student progress by student"
+
+#
+msgid "Revert to [_1]"
+msgstr "%1'e geri dön"
+
+#
+msgid "Classlist Editor"
+msgstr "Sınıf Listesi Düzenleyici"
+
+#
+msgid "Add"
+msgstr "Ekle"
+
+#
+msgid "the original path to the file is [_1]"
+msgstr "Dosyanın özgün yol belirteci: %1"
+
+#
+msgid "The path to the original file should be absolute"
+msgstr "Sorunun özgün yolu kesin olmalı"
+
+#
+msgid "To edit this text you must use the 'Save AS' action below to save it to another file."
+msgstr "Bu metni düzenlemek için aşağıdaki 'Farklı Kaydet' işlemini kullanarak başka bir dosya olarak kaydetmeniz gerekiyor."
+
+#
+msgid "Error: The original file [_1] cannot be read."
+msgstr "Hata: %1 dosyası okunamıyor."
+
+#
+msgid "Unable to change the set header for set [_1]. Unknown error."
+msgstr "Set %1'in başlığı değiştirilemedi. Bilinmeyen hata."
+
+#
+msgid "options information"
+msgstr "Seçenek bilgileri"
+
+#
+msgid "The selected problem([_1]) is not a valid problem for set [_2]."
+msgstr "Seçili soru (%1) set %2 için geçerli değil."
+
+#
+msgid "Unknown file type"
+msgstr "Bilinmeyen dosya tipi"
+
+#
+msgid "course information"
+msgstr "Ders Bilgileri"
+
+#
+msgid "Change User Options"
+msgstr "Kullanıcı bilgilerini güncelle"
+
+#
+msgid "Drop"
+msgstr "Bırak"
+
+#
+msgid "Solutions"
+msgstr "Çözümleri göster"
+
+#
+msgid "Show:"
+msgstr "Göster"
+
+#
+msgid "WeBWorK Assignment [_1] is due : [_2]."
+msgstr "WebWork Ödevi [_1] teslim tarihi: [_2]"
+
+#
+msgid "Hardcopy Generator"
+msgstr "Çıktı Dosyası Başlığı"
+
+#
+msgid "This set is visible to students."
+msgstr "Bu soru grubu öğrenciler tarafından %1."
+
+#
+msgid "View equations as"
+msgstr "Eşitlikler ne şekilde gösterilecek"
+
+#
+msgid "From:"
+msgstr "Gönderen:"
+
+#
+msgid "Generate Hardcopy"
+msgstr "Yazdırılabilir dosya oluştur"
+
+#
+msgid "You may choose to show any of the following data. Correct answers and solutions are only available after the answer date of the homework set."
+msgstr "Aşağıdaki bilgilerden herhangi bir tanesini görüntülemeyi seçebilirsiniz. Doğru cevaplar ve çözümler ödev setinin cevaplarının açıklanma tarihinden itibaren görülebilir."
+
+#
+msgid "E-mail Instructor"
+msgstr "Eğitmene E-posta"
+
+#
+msgid "Send E-mail:"
+msgstr "E-posta yolla:"
+
+#
+msgid "Cancel Email"
+msgstr "Düzenlemeyi iptal et"
+
+#
+msgid "E-mail:"
+msgstr "E-posta"
+
+#
+msgid "Correct answers"
+msgstr "Doğru yanıtları göster"
+
+#
+msgid "Use this form to report to your professor a problem with the WeBWorK system or an error in a problem you are attempting. Along with your message, additional information about the state of the system will be included."
+msgstr "Bu formu eğitmeninize WebWork sistemiyle ya da şu anda yapmakta olduğunuz soruda bir hata olduğunu bildirmek için kullanabilirsiniz. "
+
+#
+msgid "Student answers"
+msgstr "Yanıtları Gönder"
+
+#
+msgid "Hints"
+msgstr "İpuçlarını göster"
+
+#
+msgid "Hardcopy Format:"
+msgstr "Çıktı Dosyası Başlığı"
+
