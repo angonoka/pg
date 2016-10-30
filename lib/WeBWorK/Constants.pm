@@ -25,7 +25,23 @@ WeBWorK::Constants - provide constant values for other WeBWorK modules.
 use strict;
 use warnings;
 
-$WeBWorK::Constants::WEBWORK_DIRECTORY = $ENV{WEBWORK_ROOT} unless defined($WeBWorK::Constants::WEBWORK_DIRECTORY);
+
+my $filename = "/etc/webwork_pg/webwork_pg_settings.json";
+my $json_text = do {
+open(my $json_fh, "<:encoding(UTF-8)", $filename)
+   or die("Can't open \$filename\": $!\n");
+local $/;
+<$json_fh>
+};
+
+my $json = JSON->new;
+my $settings = $json->decode($json_text);
+# access variables from /etc/webwork_pg/webwork_pg_settings.json like
+# this: data->{"WEBWORK_PG_DIR"}. here WEBWORK_PG_DIR is a variable in
+# webwork_pg_settings.json
+our $ROOT_DIR = $settings->{"WEBWORK_PG_ROOT_DIR"};
+our $CONF_DIR = $settings->{"WEBWORK_PG_ROOT_DIR"}."/webwork_copy/conf";
+our $GLOBAL_ENV_FILE = $CONF_DIR."/defaults.config";
 
 
 ################################################################################
@@ -96,7 +112,7 @@ $WeBWorK::PG::ImageGenerator::DvipngArgs = "-bgTransparent -D120 -q -depth";
 
 # If true, don't delete temporary files
 #
-$WeBWorK::PG::ImageGenerator::PreserveTempFiles = 0; 
+$WeBWorK::PG::ImageGenerator::PreserveTempFiles = 0;
 # TeX to prepend to equations to be processed.
 #
 $WeBWorK::PG::ImageGenerator::TexPreamble = <<'EOF';

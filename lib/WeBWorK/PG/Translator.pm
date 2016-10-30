@@ -14,8 +14,6 @@ use Net::SMTP;
 use PGcore;
 use PGUtil qw(pretty_print);
 # use lib "$ENV{WEBWORK_PG_ROOT}/lib/"; # webwork_pg lib path
-use lib "/home/patrick/Dropbox/programming/webwork/webwork_pg/lib/";
-use lib "/home/patrick/Dropbox/programming/webwork/pgapi/lib/";
 use WeBWorK::PG::IO qw(fileFromPath);
 
 #use PadWalker;     # used for processing error messages

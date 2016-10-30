@@ -3,5 +3,8 @@
 A fork of the WeBWorK problem generator with an api for use as a standalone
 program.
 
-set the environment variable WEBWORK_PG_ROOT to where the webwork_pg directory
-is.
+# Setup
+
+Copy webwork_pg_settings.json.sample to
+`/etc/webwork_pg/webwork_pg_settings.json` and edit the JSON attributes
+accordingly.
